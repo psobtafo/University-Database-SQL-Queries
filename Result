@@ -1,0 +1,84 @@
+com.mysql.cj.jdbc.result.ResultSetImpl@1040be71******** Query 0 ********
+name
+Zhang
+Shankar
+Peltier
+Levy
+Williams
+Brown
+Bourikas
+com.mysql.cj.jdbc.result.ResultSetImpl@3f4faf53******** Query 1 ********
+ID        name      GPA        
+00128     Zhang     3,86       
+12345     Shankar   3,43       
+19991     Brandt    3,00       
+23121     Chavez    2,33       
+44553     Peltier   2,67       
+54321     Williams  3,50       
+55739     Sanchez   3,67       
+76543     Brown     4,00       
+76653     Aoi       2,00       
+98988     Tanaka    4,00       
+com.mysql.cj.jdbc.result.ResultSetImpl@239a307b******** Query 2 ********
+course_id sec_id    title                         semester  year      name           enrollment 
+BIO-101   1         Intro. to Biology             Summer    2009      Crick          1,00       
+BIO-301   1         Genetics                      Summer    2010      Crick          1,00       
+CS-101    1         Intro. to Computer Science    Fall      2009      Srinivasan     6,00       
+CS-190    2         Game Design                   Spring    2009      Brandt         2,00       
+CS-319    1         Image Processing              Spring    2010      Katz           1,00       
+CS-319    2         Image Processing              Spring    2010      Brandt         1,00       
+CS-347    1         Database System Concepts      Fall      2009      Srinivasan     2,00       
+EE-181    1         Intro. to Digital Systems     Spring    2009      Kim            1,00       
+FIN-201   1         Investment Banking            Spring    2010      Wu             1,00       
+HIS-351   1         World History                 Spring    2010      El Said        1,00       
+PHY-101   1         Physical Principles           Fall      2009      Einstein       1,00       
+com.mysql.cj.jdbc.result.ResultSetImpl@2a8448fa******** Query 3 ********
+building  room_numberfrequency  
+Taylor    3128,00   -10.2f 
+com.mysql.cj.jdbc.result.ResultSetImpl@2de56eb2******** Query 4 ********
+title                         prereq     
+Intro. to Biology             N/A        
+Genetics                      Genetics   
+Computational Biology         Computational Biology 
+Intro. to Computer Science    N/A        
+Game Design                   Game Design 
+Robotics                      Robotics   
+Image Processing              Image Processing 
+Database System Concepts      Database System Concepts 
+Intro. to Digital Systems     Intro. to Digital Systems 
+Investment Banking            N/A        
+World History                 N/A        
+Music Video Production        N/A        
+Physical Principles           N/A        
+com.mysql.cj.jdbc.result.ResultSetImpl@5f8e8a9d******** Query 5 ********
+ID        name      dept_name      tot_cred   
+128,00    Zhang     Comp. Sci.     7,00       
+12345,00  Shankar   Comp. Sci.     14,00      
+19991,00  Brandt    History        3,00       
+23121,00  Chavez    Finance        3,00       
+44553,00  Peltier   Physics        4,00       
+45678,00  Levy      Physics        7,00       
+54321,00  Williams  Comp. Sci.     8,00       
+55739,00  Sanchez   Music          3,00       
+70557,00  Snow      Physics        0,00       
+76543,00  Brown     Comp. Sci.     7,00       
+76653,00  Aoi       Elec. Eng.     3,00       
+98765,00  Bourikas  Elec. Eng.     7,00       
+98988,00  Tanaka    Biology        4,00       
+******** Query 6 ********
+ID        name      GPA        
+com.mysql.cj.jdbc.result.ResultSetImpl@5745ca0e******** Query 7 ********
+ID        name      First_Semester    Last_Semester 
+128,00    Zhang     Fall  2009        Fall 2009  
+12345,00  Shankar   Spring  2009      Spring 2010 
+19991,00  Brandt    Spring  2010      Spring 2010 
+23121,00  Chavez    Spring  2010      Spring 2010 
+44553,00  Peltier   Fall  2009        Fall 2009  
+45678,00  Levy      Fall  2009        Spring 2010 
+54321,00  Williams  Spring  2009      Fall 2009  
+55739,00  Sanchez   Spring  2010      Spring 2010 
+70557,00  Snow      null              null       
+76543,00  Brown     Fall  2009        Spring 2010 
+76653,00  Aoi       Spring  2009      Spring 2009 
+98765,00  Bourikas  Fall  2009        Spring 2010 
+98988,00  Tanaka    Summer  2009      Summer 2010 
